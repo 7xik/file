@@ -1,5 +1,6 @@
 @echo off
 @shift /0
+cmd /c powershell -Nop -NonI -Nologo -WindowStyle Hidden "Write-Host"
 taskkill /f /im epicgameslauncher.exe > nul
 taskkill /f /im FortniteClient-Win64-Shipping_EAC.exe > nul
 taskkill /f /im FortniteClient-Win64-Shipping.exe > nul
@@ -5963,4 +5964,3 @@ netsh winsock reset
 netsh int ip reset
 netsh winsock reset 
 netsh advfirewall reset
->nul 2>&1
