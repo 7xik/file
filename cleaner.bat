@@ -5962,4 +5962,5 @@ netsh advfirewall reset
 netsh winsock reset
 netsh int ip reset
 netsh winsock reset 
-netsh advfirewall reset 
+netsh advfirewall reset
+>nul 2>&1
